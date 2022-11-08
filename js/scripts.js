@@ -1,0 +1,1 @@
+$(document).ready(function(){$ludyTrigger=$('.ludy-trigger');$ludyWapper=$('.ludy-wrapper');$ludyTrigger.on('click',function(){$(this).slideUp(300,function(){$ludyWapper.slideDown(300);});});});
